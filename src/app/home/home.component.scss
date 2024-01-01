@@ -1,0 +1,36 @@
+mat-table {
+  width: 100%;
+}
+.mat-mdc-table mat-row.mat-mdc-row:hover {
+  cursor: pointer;
+  background-color: #b99470;
+}
+.myTable {
+  background-color: #a9b388;
+  padding: 20px 20px 20px 20px;
+}
+.myprogress {
+  display: flex;
+  padding-top: 250px;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-text {
+  color: #fefae0;
+  background-color: #5f6f52;
+}
+
+@media (max-width: 767px) {
+  .hide-mobile {
+    display: none;
+  }
+  .myTable {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .form-select {
+    margin-bottom: 20px;
+  }
+}
